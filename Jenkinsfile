@@ -1,12 +1,6 @@
 pipeline {
     agent any
     stages {
-		stage('Git-Checkout') {
-			steps {
-				echo "Checking out from Git Repo!";
-				git credentialsId: '95703e7a-4192-4d56-89af-1adb14fbd1ed', url: 'https://github.com/shreyansh/Accenture_Pipeline.git'
-			}
-		}
 		
         stage('Compile') {
             steps {
