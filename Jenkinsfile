@@ -18,7 +18,7 @@ pipeline {
         
         stage('Quality-Gate') {
             steps {
-                    bat label: '', script: 'Compile.bat'
+                    bat label: '', script: 'Quality.bat'
                     echo "SonarQube Quality Gate passed successfully!!"; 
                 /*sh exit ("1");*/
             }
