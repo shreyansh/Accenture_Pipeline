@@ -1,1 +1,1 @@
-echo "Compiling the Project Now : %date% : %time%"
+echo "Compiling the Project : %date% : %time%"
